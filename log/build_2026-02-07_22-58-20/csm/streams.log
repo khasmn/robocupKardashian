@@ -1,0 +1,93 @@
+[0.005s] Invoking command in '/home/parallels/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/parallels/robot_ws/src/robot/cms -DCMAKE_INSTALL_PREFIX=/home/parallels/robot_ws/install/csm
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.159s] -- The CXX compiler identification is GNU 13.3.0
+[0.166s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.217s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.332s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.384s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.408s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.417s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.470s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.472s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.516s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.527s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.621s] -- Configuring done (0.6s)
+[0.625s] -- Generating done (0.0s)
+[0.627s] -- Build files have been written to: /home/parallels/robot_ws/build/csm
+[0.631s] Invoked command in '/home/parallels/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/parallels/robot_ws/src/robot/cms -DCMAKE_INSTALL_PREFIX=/home/parallels/robot_ws/install/csm
+[0.632s] Invoking command in '/home/parallels/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/csm -- -j2 -l2
+[0.654s] [  4%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[0.656s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[1.942s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[1.959s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[3.057s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[3.067s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[4.202s] [ 29%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o[0m
+[4.299s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o[0m
+[5.398s] [ 37%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o[0m
+[5.504s] [ 41%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o[0m
+[6.711s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o[0m
+[6.865s] [ 50%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o[0m
+[7.829s] [ 54%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o[0m
+[8.715s] [ 58%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o[0m
+[9.289s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o[0m
+[9.960s] [ 66%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o[0m
+[10.830s] [ 70%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o[0m
+[11.821s] [ 75%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o[0m
+[12.887s] [ 79%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o[0m
+[13.801s] [ 83%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o[0m
+[15.277s] [ 87%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o[0m
+[16.184s] [ 91%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o[0m
+[16.353s] [ 95%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o[0m
+[16.501s] [100%] [32m[1mLinking CXX shared library libcsm.so[0m
+[16.753s] [100%] Built target csm
+[16.767s] Invoked command in '/home/parallels/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/csm -- -j2 -l2
+[16.768s] Invoking command in '/home/parallels/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/csm
+[16.777s] -- Install configuration: ""
+[16.779s] -- Installing: /home/parallels/robot_ws/install/csm/lib/libcsm.so
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/csm
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/csm/algos.h
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/csm/laser_data.h
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/csm/csm.h
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/csm/laser_data_inline.h
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/csm/restrict.h
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/gsl_eigen
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/resource
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/resource/csm
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/../gsl_eigen
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/include/../gsl_eigen/gsl_eigen.h
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/environment/library_path.sh
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/environment/library_path.dsv
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/environment/ament_prefix_path.sh
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/environment/ament_prefix_path.dsv
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/environment/path.sh
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/environment/path.dsv
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/local_setup.bash
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/local_setup.sh
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/local_setup.zsh
+[16.784s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/local_setup.dsv
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/package.dsv
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/ament_index/resource_index/packages/csm
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/cmake/csmConfig.cmake
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/cmake/csmConfig-version.cmake
+[16.785s] -- Installing: /home/parallels/robot_ws/install/csm/share/csm/package.xml
+[16.789s] Invoked command in '/home/parallels/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/csm

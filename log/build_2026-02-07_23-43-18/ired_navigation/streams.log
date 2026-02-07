@@ -1,0 +1,33 @@
+[0.004s] Invoking command in '/home/parallels/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/ired_navigation -- -j2 -l2
+[0.035s] Invoked command in '/home/parallels/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/ired_navigation -- -j2 -l2
+[0.036s] Invoking command in '/home/parallels/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/ired_navigation
+[0.042s] -- Install configuration: ""
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/config
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/config/ired_rplidar_2d.lua
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/launch
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/launch/occupancy_grid.launch.py
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/launch/navigation.launch.py
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/launch/slam.launch.py
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/launch/save_map.launch.py
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/maps
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/maps/map.pgm
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/maps/1
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/maps/map.yaml
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/param
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/param/navigation.yaml
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ament_index/resource_index/package_run_dependencies/ired_navigation
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ament_index/resource_index/parent_prefix_path/ired_navigation
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.sh
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/environment/path.sh
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/environment/path.dsv
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.bash
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.sh
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.zsh
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.dsv
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/package.dsv
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ament_index/resource_index/packages/ired_navigation
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig.cmake
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig-version.cmake
+[0.044s] -- Up-to-date: /home/parallels/robot_ws/install/ired_navigation/share/ired_navigation/package.xml
+[0.046s] Invoked command in '/home/parallels/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/ired_navigation

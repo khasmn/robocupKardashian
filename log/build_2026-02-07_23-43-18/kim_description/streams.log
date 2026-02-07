@@ -1,0 +1,33 @@
+[0.307s] Invoking command in '/home/parallels/robot_ws/build/kim_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/parallels/robot_ws/build/kim_description/build
+[0.431s] running develop
+[0.511s] Removing /home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages/kim-description.egg-link (link to .)
+[0.526s] Invoked command in '/home/parallels/robot_ws/build/kim_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/parallels/robot_ws/build/kim_description/build
+[0.527s] Invoking command in '/home/parallels/robot_ws/src/robot/kim_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kim_description build --build-base /home/parallels/robot_ws/build/kim_description/build install --record /home/parallels/robot_ws/build/kim_description/install.log --single-version-externally-managed install_data --force
+[0.632s] running egg_info
+[0.639s] writing ../../../build/kim_description/kim_description.egg-info/PKG-INFO
+[0.639s] writing dependency_links to ../../../build/kim_description/kim_description.egg-info/dependency_links.txt
+[0.639s] writing requirements to ../../../build/kim_description/kim_description.egg-info/requires.txt
+[0.639s] writing top-level names to ../../../build/kim_description/kim_description.egg-info/top_level.txt
+[0.652s] reading manifest file '../../../build/kim_description/kim_description.egg-info/SOURCES.txt'
+[0.652s] writing manifest file '../../../build/kim_description/kim_description.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.652s] creating /home/parallels/robot_ws/build/kim_description/build
+[0.652s] creating /home/parallels/robot_ws/build/kim_description/build/lib
+[0.652s] creating /home/parallels/robot_ws/build/kim_description/build/lib/kim_description
+[0.653s] copying kim_description/__init__.py -> /home/parallels/robot_ws/build/kim_description/build/lib/kim_description
+[0.653s] running install
+[0.655s] running install_lib
+[0.661s] creating /home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages/kim_description
+[0.662s] copying /home/parallels/robot_ws/build/kim_description/build/lib/kim_description/__init__.py -> /home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages/kim_description
+[0.662s] byte-compiling /home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages/kim_description/__init__.py to __init__.cpython-312.pyc
+[0.662s] running install_data
+[0.662s] copying resource/kim_description -> /home/parallels/robot_ws/install/kim_description/share/ament_index/resource_index/packages
+[0.662s] copying package.xml -> /home/parallels/robot_ws/install/kim_description/share/kim_description
+[0.662s] copying launch/kim_bringup.launch.py -> /home/parallels/robot_ws/install/kim_description/share/kim_description/launch
+[0.662s] copying urdf/kim_kardashian.urdf.xacro -> /home/parallels/robot_ws/install/kim_description/share/kim_description/urdf
+[0.662s] running install_egg_info
+[0.669s] Copying ../../../build/kim_description/kim_description.egg-info to /home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages/kim_description-0.0.0-py3.12.egg-info
+[0.669s] running install_scripts
+[0.712s] writing list of installed files to '/home/parallels/robot_ws/build/kim_description/install.log'
+[0.724s] Invoked command in '/home/parallels/robot_ws/src/robot/kim_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kim_description build --build-base /home/parallels/robot_ws/build/kim_description/build install --record /home/parallels/robot_ws/build/kim_description/install.log --single-version-externally-managed install_data --force

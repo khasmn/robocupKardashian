@@ -1,0 +1,28 @@
+[0.004s] Invoking command in '/home/parallels/robot_ws/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/ired_rviz -- -j2 -l2
+[0.032s] Invoked command in '/home/parallels/robot_ws/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/ired_rviz -- -j2 -l2
+[0.032s] Invoking command in '/home/parallels/robot_ws/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/ired_rviz
+[0.040s] -- Install configuration: ""
+[0.040s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/launch
+[0.040s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/launch/navigation.launch.py
+[0.040s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/launch/slam.launch.py
+[0.040s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/rviz
+[0.040s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/rviz/bringup.rviz
+[0.040s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/rviz/robot_urdf.rviz
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/rviz/navi.rviz
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/rviz/slam.rviz
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ament_index/resource_index/package_run_dependencies/ired_rviz
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ament_index/resource_index/parent_prefix_path/ired_rviz
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/environment/ament_prefix_path.sh
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/environment/ament_prefix_path.dsv
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/environment/path.sh
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/environment/path.dsv
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.bash
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.sh
+[0.041s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.zsh
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.dsv
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/package.dsv
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ament_index/resource_index/packages/ired_rviz
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/cmake/ired_rvizConfig.cmake
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/cmake/ired_rvizConfig-version.cmake
+[0.042s] -- Up-to-date: /home/parallels/robot_ws/install/ired_rviz/share/ired_rviz/package.xml
+[0.044s] Invoked command in '/home/parallels/robot_ws/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/ired_rviz

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+kim_description/__init__.py
+kim_description.egg-info/PKG-INFO
+kim_description.egg-info/SOURCES.txt
+kim_description.egg-info/dependency_links.txt
+kim_description.egg-info/requires.txt
+kim_description.egg-info/top_level.txt
+kim_description.egg-info/zip-safe
+launch/kim_bringup.launch.py
+resource/kim_description
+urdf/kim_kardashian.urdf.xacro

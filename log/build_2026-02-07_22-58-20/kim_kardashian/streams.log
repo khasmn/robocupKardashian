@@ -1,0 +1,33 @@
+[0.550s] Invoking command in '/home/parallels/robot_ws/build/kim_kardashian': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_kardashian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/parallels/robot_ws/build/kim_kardashian/build
+[0.690s] running develop
+[0.776s] Removing /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim-kardashian.egg-link (link to .)
+[0.816s] Invoked command in '/home/parallels/robot_ws/build/kim_kardashian' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_kardashian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/parallels/robot_ws/build/kim_kardashian/build
+[0.816s] Invoking command in '/home/parallels/robot_ws/src/kim_kardashian': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_kardashian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kim_kardashian build --build-base /home/parallels/robot_ws/build/kim_kardashian/build install --record /home/parallels/robot_ws/build/kim_kardashian/install.log --single-version-externally-managed install_data --force
+[1.010s] running egg_info
+[1.016s] writing ../../build/kim_kardashian/kim_kardashian.egg-info/PKG-INFO
+[1.017s] writing dependency_links to ../../build/kim_kardashian/kim_kardashian.egg-info/dependency_links.txt
+[1.017s] writing requirements to ../../build/kim_kardashian/kim_kardashian.egg-info/requires.txt
+[1.017s] writing top-level names to ../../build/kim_kardashian/kim_kardashian.egg-info/top_level.txt
+[1.029s] reading manifest file '../../build/kim_kardashian/kim_kardashian.egg-info/SOURCES.txt'
+[1.033s] writing manifest file '../../build/kim_kardashian/kim_kardashian.egg-info/SOURCES.txt'
+[1.033s] running build
+[1.033s] running build_py
+[1.033s] creating /home/parallels/robot_ws/build/kim_kardashian/build
+[1.033s] creating /home/parallels/robot_ws/build/kim_kardashian/build/lib
+[1.033s] creating /home/parallels/robot_ws/build/kim_kardashian/build/lib/kim_kardashian
+[1.033s] copying kim_kardashian/__init__.py -> /home/parallels/robot_ws/build/kim_kardashian/build/lib/kim_kardashian
+[1.033s] running install
+[1.040s] running install_lib
+[1.050s] creating /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian
+[1.051s] copying /home/parallels/robot_ws/build/kim_kardashian/build/lib/kim_kardashian/__init__.py -> /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian
+[1.051s] byte-compiling /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian/__init__.py to __init__.cpython-312.pyc
+[1.051s] running install_data
+[1.051s] copying resource/kim_kardashian -> /home/parallels/robot_ws/install/kim_kardashian/share/ament_index/resource_index/packages
+[1.051s] copying package.xml -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian
+[1.053s] copying launch/view_robot.launch.py -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/launch
+[1.053s] copying urdf/kardashian.urdf.xaxcro -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/urdf
+[1.055s] running install_egg_info
+[1.069s] Copying ../../build/kim_kardashian/kim_kardashian.egg-info to /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian-0.0.0-py3.12.egg-info
+[1.069s] running install_scripts
+[1.180s] writing list of installed files to '/home/parallels/robot_ws/build/kim_kardashian/install.log'
+[1.216s] Invoked command in '/home/parallels/robot_ws/src/kim_kardashian' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_kardashian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kim_kardashian build --build-base /home/parallels/robot_ws/build/kim_kardashian/build install --record /home/parallels/robot_ws/build/kim_kardashian/install.log --single-version-externally-managed install_data --force

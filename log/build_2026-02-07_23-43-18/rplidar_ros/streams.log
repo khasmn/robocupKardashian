@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/parallels/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/rplidar_ros -- -j2 -l2
+[0.059s] [ 47%] Built target rplidar_node
+[0.060s] [ 94%] Built target rplidar_composition
+[0.074s] [100%] Built target rplidar_client
+[0.080s] Invoked command in '/home/parallels/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/robot_ws/build/rplidar_ros -- -j2 -l2
+[0.081s] Invoking command in '/home/parallels/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/rplidar_ros
+[0.085s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/launch
+[0.085s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[0.085s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[0.085s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[0.085s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[0.085s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[0.086s] -- Installing: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[0.086s] -- Up-to-date: /home/parallels/robot_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[0.089s] Invoked command in '/home/parallels/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robot_ws/install/kim_description:/home/parallels/robot_ws/install/kim_kardashian:/home/parallels/robot_ws/install/ired_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/robot_ws/build/rplidar_ros

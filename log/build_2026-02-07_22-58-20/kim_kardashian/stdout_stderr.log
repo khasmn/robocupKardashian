@@ -1,0 +1,29 @@
+running develop
+Removing /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim-kardashian.egg-link (link to .)
+running egg_info
+writing ../../build/kim_kardashian/kim_kardashian.egg-info/PKG-INFO
+writing dependency_links to ../../build/kim_kardashian/kim_kardashian.egg-info/dependency_links.txt
+writing requirements to ../../build/kim_kardashian/kim_kardashian.egg-info/requires.txt
+writing top-level names to ../../build/kim_kardashian/kim_kardashian.egg-info/top_level.txt
+reading manifest file '../../build/kim_kardashian/kim_kardashian.egg-info/SOURCES.txt'
+writing manifest file '../../build/kim_kardashian/kim_kardashian.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parallels/robot_ws/build/kim_kardashian/build
+creating /home/parallels/robot_ws/build/kim_kardashian/build/lib
+creating /home/parallels/robot_ws/build/kim_kardashian/build/lib/kim_kardashian
+copying kim_kardashian/__init__.py -> /home/parallels/robot_ws/build/kim_kardashian/build/lib/kim_kardashian
+running install
+running install_lib
+creating /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian
+copying /home/parallels/robot_ws/build/kim_kardashian/build/lib/kim_kardashian/__init__.py -> /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian
+byte-compiling /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/kim_kardashian -> /home/parallels/robot_ws/install/kim_kardashian/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian
+copying launch/view_robot.launch.py -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/launch
+copying urdf/kardashian.urdf.xaxcro -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/urdf
+running install_egg_info
+Copying ../../build/kim_kardashian/kim_kardashian.egg-info to /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim_kardashian-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/parallels/robot_ws/build/kim_kardashian/install.log'

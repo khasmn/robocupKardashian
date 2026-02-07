@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating kim_kardashian.egg-info
+writing kim_kardashian.egg-info/PKG-INFO
+writing dependency_links to kim_kardashian.egg-info/dependency_links.txt
+writing requirements to kim_kardashian.egg-info/requires.txt
+writing top-level names to kim_kardashian.egg-info/top_level.txt
+writing manifest file 'kim_kardashian.egg-info/SOURCES.txt'
+reading manifest file 'kim_kardashian.egg-info/SOURCES.txt'
+writing manifest file 'kim_kardashian.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim-kardashian.egg-link (link to .)
+
+Installed /home/parallels/robot_ws/build/kim_kardashian
+running symlink_data
+creating /home/parallels/robot_ws/install/kim_kardashian/share/ament_index
+creating /home/parallels/robot_ws/install/kim_kardashian/share/ament_index/resource_index
+creating /home/parallels/robot_ws/install/kim_kardashian/share/ament_index/resource_index/packages
+symbolically linking /home/parallels/robot_ws/build/kim_kardashian/resource/kim_kardashian -> /home/parallels/robot_ws/install/kim_kardashian/share/ament_index/resource_index/packages
+symbolically linking /home/parallels/robot_ws/build/kim_kardashian/package.xml -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian
+creating /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/launch
+symbolically linking /home/parallels/robot_ws/build/kim_kardashian/launch/view_robot.launch.py -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/launch
+creating /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/urdf
+symbolically linking /home/parallels/robot_ws/build/kim_kardashian/urdf/kardashian.urdf.xaxcro -> /home/parallels/robot_ws/install/kim_kardashian/share/kim_kardashian/urdf

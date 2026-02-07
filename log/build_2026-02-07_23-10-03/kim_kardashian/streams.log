@@ -1,0 +1,16 @@
+[0.276s] Invoking command in '/home/parallels/robot_ws/build/kim_kardashian': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_kardashian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/parallels/robot_ws/build/kim_kardashian/build --no-deps symlink_data
+[0.390s] running develop
+[0.462s] running egg_info
+[0.468s] writing kim_kardashian.egg-info/PKG-INFO
+[0.468s] writing dependency_links to kim_kardashian.egg-info/dependency_links.txt
+[0.468s] writing requirements to kim_kardashian.egg-info/requires.txt
+[0.468s] writing top-level names to kim_kardashian.egg-info/top_level.txt
+[0.481s] reading manifest file 'kim_kardashian.egg-info/SOURCES.txt'
+[0.481s] writing manifest file 'kim_kardashian.egg-info/SOURCES.txt'
+[0.488s] running build_ext
+[0.488s] Creating /home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages/kim-kardashian.egg-link (link to .)
+[0.488s] 
+[0.488s] Installed /home/parallels/robot_ws/build/kim_kardashian
+[0.488s] running symlink_data
+[0.488s] error: can't copy '/home/parallels/robot_ws/build/kim_kardashian/urdf/kardashian.urdf.xaxcro': doesn't exist or not a regular file
+[0.502s] Invoked command in '/home/parallels/robot_ws/build/kim_kardashian' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/parallels/robot_ws/build/kim_kardashian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/robot_ws/install/kim_kardashian/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/parallels/robot_ws/build/kim_kardashian/build --no-deps symlink_data

@@ -1,0 +1,10 @@
+{
+  "package_name": "ired_msgs",
+  "non_idl_tuples": [
+    "/home/parallels/robot_ws/src/robot/ired_msgs:msg/IMUData.msg",
+    "/home/parallels/robot_ws/src/robot/ired_msgs:msg/MotorControl.msg",
+    "/home/parallels/robot_ws/src/robot/ired_msgs:msg/MotorData.msg",
+    "/home/parallels/robot_ws/src/robot/ired_msgs:msg/MotorSpeed.msg",
+    "/home/parallels/robot_ws/src/robot/ired_msgs:srv/PIDTuning.srv"
+  ]
+}
