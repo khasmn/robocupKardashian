@@ -30,30 +30,45 @@
 
   <link name="vertical_arm">
     <visual>
-      <origin xyz="0 0 0.2" rpy="0 0 0"/> <geometry><box size="0.04 0.04 0.4"/></geometry>
+      <origin xyz="0 0 0.2" rpy="0 0 0"/> 
+      <geometry><box size="0.04 0.04 0.4"/></geometry>
       <material name="yellow"/>
     </visual>
   </link>
 
-  <joint name="z_axis_joint" type="prismatic">
+  <joint name="arm_to_slider_joint" type="fixed">
     <parent link="sliding_module"/>
     <child link="vertical_arm"/>
     <origin rpy="0 0 0" xyz="0 0 0.03"/>
+  </joint>
+
+  <link name="lift_carriage">
+    <visual>
+      <geometry><box size="0.041 0.041 0.041"/></geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+
+  <joint name="z_axis_lift_joint" type="prismatic">
+    <parent link="vertical_arm"/>
+    <child link="lift_carriage"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/> 
     <axis xyz="0 0 1"/>
-    <limit effort="100" lower="0.0" upper="0.4" velocity="1.0"/>
+    <limit lower="0.0" upper="0.35" effort="100" velocity="1.0"/>
   </joint>
 
   <link name="gripper_body">
     <visual>
+      <origin xyz="0 0.05 0" rpy="0 0 0"/>
       <geometry><box size="0.05 0.1 0.05"/></geometry>
       <material name="red"/>
     </visual>
   </link>
 
   <joint name="y_axis_forward_joint" type="prismatic">
-    <parent link="vertical_arm"/>
+    <parent link="lift_carriage"/>
     <child link="gripper_body"/>
-    <origin xyz="0 0.05 0.35" rpy="0 0 0"/> 
+    <origin xyz="0 0.02 0" rpy="0 0 0"/> 
     <axis xyz="0 1 0"/>
     <limit lower="0.0" upper="0.2" effort="100" velocity="1.0"/>
   </joint>
